@@ -29,3 +29,10 @@ input[type=submit]:hover {
   width: 50%;
   margin: 25px
 }
+
+#sessionMessage{
+  color: red;
+  font-weight: bolder;
+  font-size: large;
+  margin: 5px;
+}
