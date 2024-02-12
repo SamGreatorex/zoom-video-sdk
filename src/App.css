@@ -22,3 +22,10 @@ input[type=submit]  {
 input[type=submit]:hover {
   background-color: rgb(44,69,98);
 }
+
+#sessionContainer {
+  position:absolute;
+  left:25%;
+  width: 50%;
+  margin: 25px
+}
