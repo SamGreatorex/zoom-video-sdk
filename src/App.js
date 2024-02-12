@@ -4,7 +4,7 @@ import uitoolkit from "@zoom/videosdk-ui-toolkit";
 import "@zoom/videosdk-ui-toolkit/dist/videosdk-ui-toolkit.css";
 import { generateToken } from "./Functions";
 
-const features = ["video", "audio", "chat", "share"];
+const features = ["video", "audio", "chat", "share", "settings"];
 
 function App() {
   const onStartSession = (sessionSettings) => {
