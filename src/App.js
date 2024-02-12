@@ -2,9 +2,13 @@ import "./App.css";
 import SettingsForm from "./Form";
 
 function App() {
+  const onStartSession = (sessionSettings) => {};
+
+  const OnJoinSession = (sessionSettings) => {};
+
   return (
     <div className="App">
-      <SettingsForm />
+      <SettingsForm OnStartSession={onStartSession} OnJoinSession={OnJoinSession} />
     </div>
   );
 }
