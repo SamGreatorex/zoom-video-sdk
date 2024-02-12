@@ -25,6 +25,16 @@ function App() {
     sMessage.innerText = "";
   };
 
+  const openPreview = () => {
+    var previewContainer = document.getElementById("previewContainer");
+    uitoolkit.openPreview(previewContainer);
+  };
+
+  const closePreview = () => {
+    var previewContainer = document.getElementById("previewContainer");
+    uitoolkit.closePreview(previewContainer);
+  };
+
   const configureSdk = async (settings, role) => {
     const jwtToken = await generateToken(settings.sessionName, role, settings.sessionId, settings.sessionPasscode);
 
@@ -48,6 +58,13 @@ function App() {
       <SettingsForm OnStartSession={onStartSession} OnJoinSession={OnJoinSession} />
       <div id="sessionMessage" />
       <div id="sessionContainer"></div>
+      <button className="preview_btn" onClick={openPreview}>
+        Open Preview
+      </button>
+      <button className="preview_btn" onClick={closePreview}>
+        Close Preview
+      </button>
+      <div id="previewContainer"></div>
     </div>
   );
 }

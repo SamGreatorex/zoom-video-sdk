@@ -36,3 +36,18 @@ input[type=submit]:hover {
   font-size: large;
   margin: 5px;
 }
+
+.preview_btn {
+  background-color: rgb(13,114,237);
+  border: none;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#preview-camera-video{
+height: 400px;
+width: 600px
+}
