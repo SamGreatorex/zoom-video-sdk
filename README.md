@@ -7,4 +7,4 @@ Video SDK is a session based model separate from Zoom accounts, which connects t
 This guide is intended to be used as a learning reference for how to embed Zooms Video SDK within a React web application. The lab will walk you through using zooms new UI Toolkit (https://github.com/zoom/videosdk-ui-toolkit-web) which is a prebuilt video chat user interface built from zoom and designed to help demo and get started quickly with the Video SDK.  The lab will also walk you through using Video SDK APIs within postman to read data.
 
 
-The assigned Labguide can be found [Here](https://docs.google.com/document/d/1uZhSOxDFYX6Mcy-Ct4jvsvvpWJlUnaKyqNoUJRw23WA)
+The relevant Workshop guide can be found [Here](https://docs.google.com/document/d/1uZhSOxDFYX6Mcy-Ct4jvsvvpWJlUnaKyqNoUJRw23WA)
